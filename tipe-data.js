@@ -9,6 +9,17 @@ const array2= [
     {nama:'ran', umur:20},
     {nama:'ren', umur:21}
 ]
+const json = {
+    status: 'success',
+    result: {
+        person: {
+            nama: 'user',
+            id: 1,
+            email: 'email@gmail.com',
+            hobbies:['lari','berenang']
+        }
+    }
+}
 
 console.log(`${string} ${number}`)
 console.log(`nama: ${object.nama}, umur: ${object.umur}`)
